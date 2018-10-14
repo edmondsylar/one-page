@@ -349,4 +349,7 @@ text{
     .about{
         display: none;
     }
+    .blog{
+        display: none;
+    }
 }

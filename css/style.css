@@ -283,18 +283,18 @@ text{
 
 
 /* This is code written for responsiveness. */
-@media Screen and (max-width: 600px){
+@media Screen and (max-width: 1000px){
 
 }
 
 
-@media Screen and (max-width: 600px){
+@media Screen and (max-width: 1000px){
     header .top-nav{
         display: none;
     }
 }
 
-@media Screen and (max-width: 600px){
+@media Screen and (max-width: 1000px){
     header .top-nav-side{
         display: block;
     }

@@ -150,10 +150,136 @@ h4.light {
     /* color: red; */
 }
 
+.blog-content{
+    float: left;
+    width: 49%;
+    background: none;
+    height: 75%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight:100; */
 
+}
+.blog-content h2{
+    font-family: "Josefin Sans" sans-serif;
+    font-weight: 500;
+    Color: rgb(69, 70, 89);
+    font-size: 20px;
+    font-style: normal;
+}
 
+.blog-content img{
+    width: 99.5%;
+    opacity: .50;
+}
 
+.blog-content-more{
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid rgb(69, 70, 89);
+    margin-top: 30px;
+    line-height: 1cm;
+}
 
+.blog-content-more span{
+    margin-top: 0;
+    padding:0;
+    font-family: "Lora" sans-serif;
+    font-weight: 150;
+    /* height: auto; */
+}
+.blog-content-more p{
+    font-weight: 400;
+}
+.blog-content-more button{
+    border: none;
+    padding: 10px; 
+    margin-left: 20px;
+    /* float: right; */
+    /* margin-top: 10px; */
+    border-radius: 120px; 
+    border: 2px solid gray;
+    background: none;
+}
+
+.blog-content-more button:hover{
+    background: rgb(25, 237, 147);
+    transition: 1s;
+    border: none;
+}
+
+/* .cont-left{
+    background-color: rgb(100, 95, 95);
+    
+} */
+
+label{
+    margin: 5px;
+}
+
+.nammers input{
+    display: block;
+    width: 75%;
+    /* padding: 20px; */
+    font-weight: 100;
+    height: 40px;
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-style: none;
+    border: 2px solid gray;
+    font-weight: 300;
+    /* border-bottom: 2px solid gray; */
+    border-radius: 3px; 
+    border-color: rgb(25, 237, 147);
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nammers input:focus{
+    outline: none;
+    box-shadow: 0 0 30px #a1a1a1;
+    transition: 1s;
+    border: none;
+    border-bottom: 2px solid rgb(25, 237, 147);
+}
+
+.nammers textarea{
+    display: block;
+    margin: 5px;
+    border: 2px solid rgb(25, 237, 147);
+    border-radius: 3px;
+    
+}
+
+text{
+    font-weight: 150;
+}
+.nammers input[type=submit]{
+    width: 75.7%;
+    background: rgb(25, 237, 147);
+    margin-top: 15px;
+}
+
+.nammers input[type=submit]:hover{
+    background: linear-gradient(to bottom right, rgb(25, 237, 147), gray);
+    box-shadow: 0 0 30px #a1a1a1;
+    transition: .50s;
+    border: none;
+    /* background-color: red; */
+}
+
+.nammers textarea:focus{
+    outline: none;
+    box-shadow: 0 0 30px #a1a1a1;
+}
+.contact{
+    background: none;
+    height: 45%;
+    width: 100%;
+    margin-top: 500px;
+    position: static;
+}
 
 
 /* This is code written for responsiveness. */
